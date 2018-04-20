@@ -1,8 +1,21 @@
-.profile img .img-fluid{
+body{
+    position: relative;
+}
+.profile .img-fluid{
     border-radius: 50%;
     border: 2px solid white;
     max-width: 140px;
 }
 .profile{
     padding-left: 20px;
+}
+.nav-pills .nav-link.active, .nav-pills .show >.nav-link {
+    color: #fff;
+    background-color: #e4606d;
+}
+/*.navbar-light .navbar-nav .active >.nav-link,*/
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show >.nav-link {
+    color: #fff;
 }
