@@ -7,6 +7,8 @@
         <title>Asifa Ferdausi</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="bootstrap.min.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" type="text/css" href="fontawesome-all.min.css">
         <!-- Main CSS -->
         <link rel="stylesheet" href="style.css">
     </head>
@@ -39,13 +41,13 @@
             </header>
 
             <!-- Featured Work-->
-            <div class="myFeaturedWork">
+            <div class="myFeaturedWork pt-4">
                 <div class="container">
                     <h2 class="text-center">Featured Work</h2>
                     <div class="row">
 
                         <div class="col-md-6">
-                            <img class="img-fluid" src="salmazkitchen.jpeg">
+                            <img class="img-fluid"  src="salmazkitchen.jpeg">
                         </div>
                         <div class="col-md-6">
                             <p class="pt-5">
@@ -59,16 +61,72 @@
                                 lacinia sapien ac, sodales turpis. Donec lectus ex, eleifend id tempor eget, tincidunt sed eros.
                                 Pellentesque sed nibh non sem finibus elementum. In maximus bibendum pulvinar.
                             </p>
-                            <a class="btn btn-primary" href="#">View Website</a>
+                            <a class="btn btn-primary" href="http://www.salmazkitchen.com" target="_blank">View Website</a>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!--Contact me-->
+            <div class="contact p-5 border-top">
+                <div class="container ">
+                    <div class="row">
+                        <!-- Profile picture-->
+                        <div class="offset-1 col-md-3 profile text-center">
+                            <div>
+                                <img class="img-fluid" alt="profile" src="avatar.jpg">
+                            </div>
+                            <div class="socialShare pt-3">
+                                <a class="mr-2" href="https://github.com/ferdausi"><i class="fab fa-github"></i></a>
+                                <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                            </div>
+
+                        </div>
+                        <!--Contact Form-->
+                        <div class="col-md-6">
+                            <form action="https://formspree.io/asifa.cse12@gmail.com" method="POST">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name *" required="required" data-error="Name is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div>
+                                            <input id="form_email" type="email" name="_replyto" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="submit"  class="btn btn-success btn-send" value="Send message">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="offset-2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer-->
+            <footer class="pt-4 border-top">
+                <div class="container">
+                    <p class="text-center">&copy; ferdausi.github.io 2018</p>
+                </div>
+            </footer>
 
         </div>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="jquery.min.js"></script>
         <script src="bootstrap.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
     </body>
 </html>
