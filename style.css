@@ -30,12 +30,11 @@
  /*Hero Background Start*/
 
     .heroHeader{
-        background: url("header-bg.jpeg") no-repeat 100% 100%;
+        /*background: url("header-bg.jpeg") no-repeat 100% 100%;*/
         background-size: cover;
-        top:0;
-        left: 0;
         padding:200px 0;
         z-index: -100;
+        background: #0c5460;
     }
  /*End*/
 
@@ -85,6 +84,13 @@
         100% { opacity:1; }
     }
 /*End*/
+
+    h1,h2,h3,h4,h5,h6{
+        font-family: 'Roboto Slab', serif;
+    }
+    body{
+        font-family: 'lora', serif;
+    }
 
 /*Contact Section Start*/
     .contact, footer{
