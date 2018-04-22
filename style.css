@@ -29,13 +29,26 @@
 
  /*Hero Background Start*/
 
-    .heroHeader{
-        /*background: url("header-bg.jpeg") no-repeat 100% 100%;*/
-        background-size: cover;
-        padding:200px 0;
+    #particles-js{
+        padding:150px 0;
         z-index: -100;
         background: #0c5460;
+
     }
+    .card-img-overlay{
+        top:15%;
+    }
+    @media (max-width: 991.98px) {
+        .card-img-overlay{
+            top:11%;
+        }
+    }
+    @media (max-width: 767.98px){
+        .card-img-overlay{
+            top:8%;
+        }
+    }
+
  /*End*/
 
 /* Typewriter Effect start*/

@@ -17,4 +17,6 @@ $(document).ready(function(){
 
     $('#back-to-top').tooltip('show');
 
+    // particlesJS.load('particles-js','particles.json');
+
 });
